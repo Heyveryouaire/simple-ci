@@ -1,0 +1,20 @@
+{
+  "name": "simple-ci",
+  "version": "1.0.0",
+  "description": "Test CI/CD github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heyveryouaire/simple-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heyveryouaire/simple-ci/issues"
+  },
+  "homepage": "https://github.com/Heyveryouaire/simple-ci#readme"
+}

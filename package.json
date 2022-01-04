@@ -4,7 +4,10 @@
   "description": "Test CI/CD github",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start index.js",
+    "stop": "pm2 stop all",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Heyveryouaire/simple-ci/issues"
   },
-  "homepage": "https://github.com/Heyveryouaire/simple-ci#readme"
+  "homepage": "https://github.com/Heyveryouaire/simple-ci#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.1.2"
+  }
 }
